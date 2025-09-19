@@ -1,0 +1,16 @@
+aiogram==3.3.0
+aiohttp==3.9.5
+APScheduler==3.10.4
+pydantic
+python-dotenv==1.0.1
+# Для хранения — выбрать одно из:
+# tinydb==4.8.0    # Лёгкая embedded БД
+# или
+aiosqlite==0.20.0 # Для SQLite с asyncio
+
+# Для расширяемости (опционально, если планируется плагинная архитектура)
+# pluggy==1.5.0
+
+# Для удобства работы с датами и часовыми поясами
+python-dateutil==2.9.0.post0
+pandas
